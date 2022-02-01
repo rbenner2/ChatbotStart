@@ -1,37 +1,28 @@
 {
-  "name": "es6test",
+  "name": "prog8110-assignment-1",
   "version": "1.0.0",
-  "description": "Assignment 1 for PROG8110",
+  "description": "assignment 1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rhildred/es6test.git"
+    "url": "git+https://github.com/rbenner2/ChatbotStart.git"
   },
   "keywords": [
-    "node",
-    "es6",
-    "problem",
-    "solving"
+    "chatbot",
+    "fast",
+    "food",
+    "order"
   ],
   "author": "Regan Benner",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rhildred/es6test/issues"
+    "url": "https://github.com/rbenner2/ChatbotStart/issues"
   },
-  "homepage": "https://github.com/rhildred/es6test#readme",
+  "homepage": "https://github.com/rbenner2/ChatbotStart#readme",
   "dependencies": {
-    "express": "*"
-  },
-  "babel": {
-    "presets": [
-      "env"
-    ],
-    "sourceMaps": true,
-    "retainLines": true
+    "express": "^4.17.2"
   }
 }
